@@ -11,7 +11,7 @@ function LoginPage() {
     }, [])
 
   return (
-    <div>
+    <main>
       <LoginForm />
 
       <center>
@@ -25,7 +25,7 @@ function LoginPage() {
           Register
         </button>
       </center>
-    </div>
+    </main>
   );
 }
 

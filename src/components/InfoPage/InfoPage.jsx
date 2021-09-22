@@ -13,9 +13,9 @@ function InfoPage() {
     }, [])
 
   return (
-    <div className="container">
+    <main className='container'>
       <p>Info Page</p>
-    </div>
+    </main>
   );
 }
 

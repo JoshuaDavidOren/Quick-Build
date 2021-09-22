@@ -12,7 +12,7 @@ function RegisterPage() {
     }, [])
 
   return (
-    <div>
+    <main>
       <RegisterForm />
 
       <center>
@@ -26,7 +26,7 @@ function RegisterPage() {
           Login
         </button>
       </center>
-    </div>
+    </main>
   );
 }
 
