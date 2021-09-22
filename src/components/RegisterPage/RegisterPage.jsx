@@ -1,10 +1,15 @@
 import React from 'react';
+import { useEffect } from 'react';
 
 import { useHistory } from 'react-router-dom';
 import RegisterForm from '../RegisterForm/RegisterForm';
 
 function RegisterPage() {
   const history = useHistory();
+
+  useEffect(() => {
+    document. title = "Register - JoshuaDavidOren"
+    }, [])
 
   return (
     <div>
