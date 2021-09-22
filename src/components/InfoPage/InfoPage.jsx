@@ -14,7 +14,10 @@ function InfoPage() {
 
   return (
     <main className='container'>
-      <p>Info Page</p>
+      <h1>Info Page</h1>
+      <section id='info'>
+        <p>Info Page</p>
+      </section>
     </main>
   );
 }

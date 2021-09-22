@@ -12,8 +12,11 @@ function UserPage() {
 
   return (
     <main className='container'>
-      <h2>Welcome, {user.username}!</h2>
-      <p>Your ID is: {user.id}</p>
+      <h1>Profile</h1>
+      <section id='user-info'>
+        <h2>Welcome, {user.username}!</h2>
+        <p>Your ID is: {user.id}</p>
+      </section>
     </main>
   );
 }
