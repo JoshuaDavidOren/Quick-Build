@@ -1,4 +1,5 @@
 import React from 'react';
+import { useEffect } from 'react';
 
 // This is one of our simplest components
 // It doesn't have local state
@@ -6,6 +7,11 @@ import React from 'react';
 // or even care what the redux state is
 
 function InfoPage() {
+
+  useEffect(() => {
+    document. title = "This is info page title - JoshuaDavidOren"
+    }, [])
+
   return (
     <div className="container">
       <p>Info Page</p>
