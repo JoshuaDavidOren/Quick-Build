@@ -1,4 +1,4 @@
-.nav {
+nav {
   /* flex box layout */
   display: flex;
   justify-content: space-between;
@@ -9,7 +9,7 @@
   overflow: hidden;
 }
 
-.nav a {
+nav a {
   text-decoration: none;
 }
 
