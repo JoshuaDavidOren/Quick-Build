@@ -32,7 +32,8 @@ function InfoPage() {
         This link is named to describe what it does (a screen reader will say "link, Home Page")
       </p>
       <p>
-        <a href="https://www.google.com/url?sa=i&url=https%3A%2F%2Fthenounproject.com%2Fterm%2Fnew-window%2F&psig=AOvVaw2P5HOc5wBF0lfSXxYCT3Us&ust=1632500063660000&source=images&cd=vfe&ved=0CAwQjhxqFwoTCICwheW-lfMCFQAAAAAdAAAAABAD" target="_blank">Vector for opens new window image 
+        <a href="https://www.google.com/url?sa=i&url=https%3A%2F%2Fthenounproject.com%2Fterm%2Fnew-window%2F&psig=AOvVaw2P5HOc5wBF0lfSXxYCT3Us&ust=1632500063660000&source=images&cd=vfe&ved=0CAwQjhxqFwoTCICwheW-lfMCFQAAAAAdAAAAABAD" target="_blank">
+          Vector for "open new window image" 
     <img src="https://static.thenounproject.com/png/299638-200.png" alt="opens new window" width="16" height="16"/>
   </a> This link opens a new window the image next to it not only provides a visual indication for the user, but also has alternative text that screen readers can relay to its users.
   </p>
