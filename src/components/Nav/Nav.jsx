@@ -1,12 +1,18 @@
-import React from 'react';
-import { Link } from 'react-router-dom';
+import React, { useEffect } from 'react';
+import { Link, useParams } from "react-router-dom";
 import LogOutButton from '../LogOutButton/LogOutButton';
 import './Nav.css';
 import { useSelector } from 'react-redux';
 
 function Nav() {
-  const user = useSelector((store) => store.user);
+  let user = useSelector((store) => store.user);
 
+  useEffect(() => {
+   
+  }, []);
+
+  const currentPage = useParams();
+  console.log(currentPage);
   return (
     <nav>
       <Link to="/home">
@@ -24,7 +30,7 @@ function Nav() {
         {/* If a user is logged in, show these links */}
         {user.id && (
           <>
-            <Link className="navLink" to="/user">
+            <Link className="navLinkHere" to="/user">
               Home
             </Link>
 
