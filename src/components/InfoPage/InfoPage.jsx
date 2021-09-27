@@ -1,5 +1,6 @@
 import React from 'react';
 import { useEffect } from 'react';
+import { useDispatch } from 'react-redux';
 
 // This is one of our simplest components
 // It doesn't have local state
@@ -8,8 +9,10 @@ import { useEffect } from 'react';
 
 
 function InfoPage() {
+  const dispatch = useDispatch();
 
   useEffect(() => {
+    dispatch({type: 'HOME'});
     document. title = "This is info page title - JoshuaDavidOren"
     }, [])
 

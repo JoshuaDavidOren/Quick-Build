@@ -6,6 +6,7 @@ import { useSelector } from 'react-redux';
 
 function Nav() {
   let user = useSelector((store) => store.user);
+  let page = useSelector((store) => store.page);
 
   useEffect(() => {
    
