@@ -6,7 +6,7 @@ import { useSelector } from 'react-redux';
 
 function Nav() {
   let user = useSelector((store) => store.user);
-  let page = useSelector((store) => store.page);
+  let page = useSelector((store) => store.pageReducer);
 
   useEffect(() => {
    
@@ -31,13 +31,27 @@ function Nav() {
         {/* If a user is logged in, show these links */}
         {user.id && (
           <>
+            
+{page === 1 ?
+            <Link className="navLinkHere" to="/user">
+              Info Page
+            </Link>
+            :
+            <Link className="navLink" to="/info">
+            Info Page
+          </Link>
+}
+{page === 2 ?
             <Link className="navLinkHere" to="/user">
               Home
             </Link>
-
-            <Link className="navLink" to="/info">
-              Info Page
+            :
+            <Link className="navLink" to="/user">
+              Home
             </Link>
+}
+
+           
 
             <LogOutButton className="navLink" />
           </>

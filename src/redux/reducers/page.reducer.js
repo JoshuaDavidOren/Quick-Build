@@ -1,9 +1,9 @@
 const pageReducer = (state = {}, action) => {
     switch (action.type) {
       case 'HOME':
-        return action.payload;
+        return 1;
       case 'INFO_PAGE':
-        return action.payload;
+        return 2;
       default:
         return state;
     }
