@@ -32,7 +32,7 @@ function Nav() {
         {user.id && (
           <>
             
-{page === 1 ?
+{page === 2 ?
             <Link className="navLinkHere" to="/info">
               Info Page
             </Link>
@@ -41,7 +41,7 @@ function Nav() {
             Info Page
           </Link>
 }
-{page === 2 ?
+{page === 1 ?
             <Link className="navLinkHere" to="/user">
               Home
             </Link>
