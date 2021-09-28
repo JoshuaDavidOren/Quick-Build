@@ -39,7 +39,7 @@ nav a {
 
 .navLinkHere {
   display: inline-block;
-  color: #000000;
+  color: #e40000;
   background-image: linear-gradient( #000, #540C5B);
   text-align: center;
   padding: 24px 10px;
@@ -54,9 +54,9 @@ nav a {
 }
 
 .navLink:hover {
-  background-image: linear-gradient( #540C5B, #000);
+  background-image: linear-gradient(to bottom right, #000, #540C5B);
 }
 
 .navLinkHere:hover {
-  background-image: linear-gradient( #540C5B, #000);
+  background-image: linear-gradient(to bottom left, #000, #540C5B);
 }
