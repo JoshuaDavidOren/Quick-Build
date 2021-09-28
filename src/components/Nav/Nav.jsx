@@ -33,7 +33,7 @@ function Nav() {
           <>
             
 {page === 1 ?
-            <Link className="navLinkHere" to="/user">
+            <Link className="navLinkHere" to="/info">
               Info Page
             </Link>
             :

@@ -14,13 +14,16 @@ function UserPage() {
     }, [])
 
   return (
-    <main className='container'>
+  <div>
+    <div id="skipnav"><a href="mainContent">Skip navigation</a></div>
+    <main id="mainContent" tabindex="-1" className='container'>
       <h1>Profile</h1>
       <section id='user-info'>
         <h2>Welcome, {user.username}!</h2>
         <p>Your ID is: {user.id}</p>
       </section>
     </main>
+    </div>
   );
 }
 

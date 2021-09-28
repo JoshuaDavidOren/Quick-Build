@@ -17,7 +17,9 @@ function InfoPage() {
     }, [])
 
   return (
-    <main className='container'>
+    <div>
+      <div id="skipnav"><a href="#user/mainContent">Skip navigation</a></div>
+    <main id="mainContent" tabindex="-1" className='container'>
       <h1> H1 Info Page</h1>
       <section id='info'>
       <div class="exampleHeadings">
@@ -58,6 +60,7 @@ function InfoPage() {
 </div>
       </section>
     </main>
+    </div>
   );
 }
 
