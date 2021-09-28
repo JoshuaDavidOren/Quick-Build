@@ -5,7 +5,7 @@ nav {
   align-items: center;
 
   margin: 0 0 30px;
-  background-color: #00acb0;
+  background-image: linear-gradient( #000, #540C5B); 
   overflow: hidden;
 }
 
@@ -24,7 +24,7 @@ nav a {
 .navLink {
   display: inline-block;
   color: #f2f2f2;
-  background-color: #00acb0;
+  background-image: linear-gradient( #000, #540C5B);
   text-align: center;
   padding: 24px 10px;
   text-decoration: none;
@@ -40,7 +40,7 @@ nav a {
 .navLinkHere {
   display: inline-block;
   color: #000000;
-  background-color: #00acb0;
+  background-image: linear-gradient( #000, #540C5B);
   text-align: center;
   padding: 24px 10px;
   text-decoration: none;
@@ -54,9 +54,9 @@ nav a {
 }
 
 .navLink:hover {
-  background-color: #008183;
+  background-image: linear-gradient( #540C5B, #000);
 }
 
 .navLinkHere:hover {
-  background-color: #008183;
+  background-image: linear-gradient( #540C5B, #000);
 }
