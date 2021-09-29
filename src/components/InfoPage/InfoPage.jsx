@@ -23,8 +23,8 @@ function InfoPage() {
       <h3> H3 High ISO cameras</h3>
         <p>Cameras with larger sensors are capable of
         higher ISO values [...]</p>
-        <h2> H2 Links</h2>
-      <h3> Examples of good Links</h3>
+        <h2>Links [h2]</h2>
+      <h3> Examples of good Links [h3]</h3>
         <p>
         <a href="/home">Home Page</a>
           This link is named to describe what it does (a screen reader will say "link, Home Page")
@@ -35,21 +35,96 @@ function InfoPage() {
       <img src="https://static.thenounproject.com/png/299638-200.png" alt="opens new window" width="16" height="16"/>
         </a> This link opens a new window the image next to it not only provides a visual indication for the user, but also has alternative text that screen readers can relay to its users.
         </p>
-      <h3> H3 Vignetting</h3>
-        <p>Vignetting occurs when a lens lets in less light
-        around the edges than in the center [...]</p>
-      <h3> H3 Diffraction</h3>
-        <p>A small aperture can cause the light to
-        diffract, which reduces the sharpness of the
-        image, even though more of the image is
-        in focus [...]</p>
-        <h2> H2 Choose a shutter speed</h2>
-      <h3> H3 Shutter speed limitations for hand-holding a camera</h3>
-        <p>Hand-holding a camera at a slow shutter speed
-        increases the chance of vibration and blur
-        in the final image [...]</p>
-      <h3> H3 Long exposures</h3>
-        <p>Use a tripod when taking long exposures [...]</p>
+        <h2> Tables [h2]</h2>
+      <h3> Example [h3]</h3>
+      <table>
+    <caption>
+       Greensprings Running Club Personal Bests<br/>
+       (The first column lists the runners and the
+       first row lists the race distances)
+    </caption>
+  <tr>
+    <th scope="col">Name</th>
+    <th scope="col">1 mile</th>
+    <th scope="col">5 km</th>
+    <th scope="col">10 km</th>
+    </tr>
+  <tr>
+    <th scope="row">Mary</th>
+    <td>8:32</td>
+    <td>28:04</td>
+    <td>1:01:16</td>
+    </tr>
+  <tr>
+    <th scope="row">Betsy</th>
+    <td>7:43</td>
+    <td>26:47</td>
+    <td>55:38</td>
+    </tr>
+  <tr>
+    <th scope="row">Matt</th>
+    <td>7:55</td>
+    <td>27:29</td>
+    <td>57:04</td>
+    </tr>
+  <tr>
+    <th scope="row">Todd</th>
+    <td>7:01</td>
+    <td>24:21</td>
+    <td>50:35</td>
+    </tr>
+</table>
+      <h3> Avoid complex tables [h3]</h3>
+      <table class="complexexample">
+  <caption>New Employee Orientation Schedule</caption>
+  <tbody>
+    <tr>
+      <th rowspan="2" id="date">Date</th>
+      <th colspan="2" id="schedule">Schedule</th>
+      <th rowspan="2" id="location">Location</th>
+      <th colspan="2" rowspan="2" id="topics1">Topics</th>
+    </tr>
+    <tr>
+      <th id="start">Start</th>
+      <th id="end">End</th>
+    </tr>
+    <tr>
+      <th id="monday" rowspan="5">Monday, June 1</th>
+      <td headers="schedule start monday">9:00 a.m.</td>
+      <td headers="schedule end monday">10:30 a.m.</td>
+      <td headers="location monday">RH 001</td>
+      <td headers="topics1 monday">
+        Introduction to Company: Vision and Mission</td>
+    </tr>
+    <tr>
+      <td headers="schedule start monday">10:30 a.m.</td>
+      <td headers="schedule end monday">12:00 p.m.</td>
+      <td headers="location monday">RH 001</td>
+      <td headers="topics1 monday">HR Policies Review</td>
+    </tr>
+    <tr>
+      <td headers="schedule monday" colspan="5">
+        <strong><em>
+          Lunch from 12:00 p.m. to 1:00 p.m.
+        </em></strong>
+      </td>
+    </tr>
+    <tr>
+      <td headers="schedule start monday">1:00 p.m.</td> 
+      <td headers="schedule end monday">2:30 p.m.</td>
+      <td headers="location monday">RH 001</td>
+      <td headers="topics1 monday">Overview of Benefits</td>
+    </tr>
+    <tr>
+      <td headers="schedule start monday">3:00 p.m.</td>
+      <td headers="schedule end monday">4:30 p.m.</td>
+      <td headers="location monday">RH 005</td>
+      <td headers="topics1 monday">
+        Health and Safety Procedures
+      </td>
+    </tr>
+  </tbody>
+</table>
       </div>
         </section>
       </main>
