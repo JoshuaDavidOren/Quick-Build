@@ -125,6 +125,51 @@ function InfoPage() {
     </tr>
   </tbody>
 </table>
+<h2>Lists [h2]</h2>
+<h3>Example of a list [h3]</h3>
+<ul>
+     <li>Raindrops on roses</li>
+     <li>Whiskers on kittens</li>
+     <li>Bright copper kettles</li>
+     <li>Warm woolen mittens</li>
+     <li>Brown paper packages tied up with strings</li>
+     <li>Cream colored ponies</li>
+     <li>Crisp apple strudels</li>
+     <li>Doorbells and sleigh bells</li>
+     <li>Schnitzel with noodles</li>
+     <li>Wild geese that fly with the moon on their wings</li>
+     <li>Girls in white dresses with blue satin sashes</li>
+     <li>Snowflakes that stay on my nose and eyelashes</li>
+     <li>Silver white winters that melt into springs</li>
+ </ul>
+ <h3>Exemple of  a nested list [h3]</h3>
+  <ol>
+    <li>
+      <ul>
+      <li>Raindrops on roses</li>
+     <li>Whiskers on kittens</li>
+     <li>Bright copper kettles</li>
+     <li>Warm woolen mittens</li>
+      </ul>
+    </li>
+    <li>
+      <ul>
+      <li>Brown paper packages tied up with strings</li>
+     <li>Cream colored ponies</li>
+     <li>Crisp apple strudels</li>
+     <li>Doorbells and sleigh bells</li>
+      </ul>
+    </li>
+    <li>
+      <ul>
+      <li>Schnitzel with noodles</li>
+     <li>Wild geese that fly with the moon on their wings</li>
+     <li>Girls in white dresses with blue satin sashes</li>
+     <li>Snowflakes that stay on my nose and eyelashes</li>
+     <li>Silver white winters that melt into springs</li>
+      </ul>
+    </li>
+  </ol>
       </div>
         </section>
       </main>
