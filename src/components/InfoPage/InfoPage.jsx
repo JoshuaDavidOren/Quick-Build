@@ -170,13 +170,21 @@ function InfoPage() {
       </ul>
     </li>
   </ol>
-  <h2>iframes [h2]</h2>
+  <h2>iframe [h2]</h2>
 <h3>Example of iframe [h3]</h3>
 <iframe 
   title="Video: Specify the Language" 
   width="560" height="315" 
   src="https://www.youtube.com/embed/qyjDrUV_el8" 
   frameborder="0" allowfullscreen>
+</iframe>
+<h3>Hidden iframe</h3>
+<p>somtimes iframes are more for style and do not need to be read on a screen reader</p>
+<iframe 
+  title="Intentionally blank"
+  aria-hidden="true"
+  src="http://bit.ly/2cfBoyE"
+  width="120" height="50">
 </iframe>
       </div>
         </section>
