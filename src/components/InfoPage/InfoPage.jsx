@@ -170,6 +170,14 @@ function InfoPage() {
       </ul>
     </li>
   </ol>
+  <h2>iframes [h2]</h2>
+<h3>Example of iframe [h3]</h3>
+<iframe 
+  title="Video: Specify the Language" 
+  width="560" height="315" 
+  src="https://www.youtube.com/embed/qyjDrUV_el8" 
+  frameborder="0" allowfullscreen>
+</iframe>
       </div>
         </section>
       </main>
