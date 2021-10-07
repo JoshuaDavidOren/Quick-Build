@@ -186,6 +186,8 @@ function InfoPage() {
   src="http://bit.ly/2cfBoyE"
   width="120" height="50">
 </iframe>
+<h2>Hidden/clip method</h2>
+
       </div>
         </section>
       </main>
