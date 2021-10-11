@@ -13,7 +13,7 @@ function InfoPage() {
   return (
     
       <main className='container'>
-        <h1> H1 Info Page</h1>
+        <h1>Info Page [h1]</h1>
         <section id='info'>
         <div class="exampleHeadings">
         <h2> H2 Headings</h2>
