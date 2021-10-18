@@ -19,6 +19,7 @@ function UserPage() {
       <section id='user-info'>
         <h2>Welcome, {user.username}!</h2>
         <p>Your ID is: {user.id}</p>
+        <button>Fibonacci</button>
       </section>
     </main>
   );
